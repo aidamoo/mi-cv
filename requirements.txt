@@ -1,0 +1,11 @@
+keras
+streamlit
+pillow
+numpy
+pandas
+requests
+matplotlib
+tensorflow
+seaborn
+plotly
+streamlit
