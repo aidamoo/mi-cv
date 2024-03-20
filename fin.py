@@ -7,7 +7,7 @@ def fin():
     st.write(" ")
 
     image = Image.open(
-        "imagenes/fin.PNG")
+        "imagenes/finn.PNG")
     st.image(image=image, width=800)
 
 if __name__ == "__main__":
