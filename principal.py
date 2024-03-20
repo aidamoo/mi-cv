@@ -39,30 +39,24 @@ def main():
         contacto()
         pass
 
-    # Estilo CSS para cambiar el fondo de la página y el color del texto en el margen izquierdo
-    estilo_css = """
-        <style>
-            /* Cambiar el fondo principal */
-            body {
-                background-color: #f0f0f0; /* Cambia el color de fondo principal */
-            }
+        # Estilo CSS para cambiar el fondo de la página y el color del texto en el margen izquierdo
+        estilo_css = """
+            <style>
+                /* Cambiar el fondo principal */
+                body {
+                    background-color: #f0f0f0; /* Cambia el color de fondo principal */
+                }
 
-            /* Cambiar el fondo lateral */
-            .sidebar {
-                background-color: #333; /* Cambia el color de fondo lateral */
-                color: black; 
-            }
+                /* Cambiar el fondo lateral */
+                .sidebar {
+                    background-color: #333; /* Cambia el color de fondo lateral */
+                    color: black; /* Cambia el color del texto a negro */
+                }
+            </style>
+        """
 
-            /* Cambiar el color del texto en el margen izquierdo */
-            
-            .stSidebarContent {
-                color: black; /* Cambia el color del texto a negro */
-            }
-        </style>
-    """
-
-    # Mostrar el estilo CSS
-    st.markdown(estilo_css, unsafe_allow_html=True)
+        # Mostrar el estilo CSS
+        st.markdown(estilo_css, unsafe_allow_html=True)
 
 
 if __name__ == "__main__":
