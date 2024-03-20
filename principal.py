@@ -6,6 +6,24 @@ from formacion import formacion
 from experiencia import experiencia
 from cv import cv
 
+estilo_css = """
+        <style>
+            /* Cambiar el fondo principal */
+            body {
+                background-color: #f0f0f0; /* Cambia el color de fondo principal */
+            }
+
+            /* Cambiar el fondo lateral */
+            .sidebar {
+                background-color: #333; /* Cambia el color de fondo lateral */
+                color: black; /* Cambia el color del texto a negro */
+            }
+        </style>
+    """
+
+    # Mostrar el estilo CSS
+    st.markdown(estilo_css, unsafe_allow_html=True)
+
 
 def main():
     page = st.sidebar.radio("Menú", ("Introducción", "¿Quien soy?", "Formación", "Experiencia", "CV", "Contacto"))
@@ -38,25 +56,6 @@ def main():
     elif page == "Contacto":
         contacto()
         pass
-
-        # Estilo CSS para cambiar el fondo de la página y el color del texto en el margen izquierdo
-        estilo_css = """
-            <style>
-                /* Cambiar el fondo principal */
-                body {
-                    background-color: #f0f0f0; /* Cambia el color de fondo principal */
-                }
-
-                /* Cambiar el fondo lateral */
-                .sidebar {
-                    background-color: #333; /* Cambia el color de fondo lateral */
-                    color: black; /* Cambia el color del texto a negro */
-                }
-            </style>
-        """
-
-        # Mostrar el estilo CSS
-        st.markdown(estilo_css, unsafe_allow_html=True)
 
 
 if __name__ == "__main__":
