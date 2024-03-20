@@ -39,22 +39,17 @@ def main():
         contacto()
         pass
 
-    # Obtener la ruta del directorio del script actual
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    # Construir la ruta completa a la imagen de fondo
-    imagen_ruta = os.path.join(script_dir, "imagenes/fondo.png")
-
-    # Estilo CSS para establecer el fondo y cambiar el color de la barra lateral
-    estilo_css = f"""
+    # Estilo CSS para cambiar el color de fondo de la barra lateral
+    estilo_css = """
         <style>
-            body {{
-                background-image: url("{imagen_ruta}");
-                background-size: cover;
-            }}
             /* Cambiar el color de fondo de la barra lateral */
-            .sidebar {{
+            .sidebar {
                 background-color: #333; /* Cambia el color de fondo a un gris oscuro */
-            }}
+            }
+            /* Cambiar el color del texto en la barra lateral */
+            .sidebar .sidebar-content {
+                color: white; /* Cambia el color del texto a blanco */
+            }
         </style>
     """
 
