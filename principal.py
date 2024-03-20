@@ -53,7 +53,8 @@ def main():
             }
 
             /* Cambiar el color del texto en el margen izquierdo */
-            .sidebar .sidebar-content {
+            
+            #stRadio {
                 color: black; /* Cambia el color del texto a negro */
             }
         </style>
