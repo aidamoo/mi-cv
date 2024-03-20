@@ -52,14 +52,19 @@ def main():
                 background-size: cover;
             }}
             /* Cambiar el color de fondo de la barra lateral */
-            .sidebar .sidebar-content {{
-                background-color: #ADD8E6; /* Azul claro */
+            .sidebar {{
+                background-color: #333; /* Cambia el color de fondo a un gris oscuro */
             }}
         </style>
     """
 
     # Mostrar el estilo CSS
     st.markdown(estilo_css, unsafe_allow_html=True)
+
+
+
+# Mostrar el estilo CSS
+st.markdown(estilo_css, unsafe_allow_html=True)
 
 
 if __name__ == "__main__":
