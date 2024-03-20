@@ -50,11 +50,12 @@ def main():
             /* Cambiar el fondo lateral */
             .sidebar {
                 background-color: #333; /* Cambia el color de fondo lateral */
+                color: black; 
             }
 
             /* Cambiar el color del texto en el margen izquierdo */
             
-            #stRadio {
+            .stSidebarContent {
                 color: black; /* Cambia el color del texto a negro */
             }
         </style>
