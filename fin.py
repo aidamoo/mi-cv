@@ -6,7 +6,7 @@ def fin():
 
     image6 = Image.open(
         "imagenes/finnn.jpg")
-    st.image(image=image6, width=500)
+    st.image(image=image6, width=800)
 
 if __name__ == "__main__":
     fin()
