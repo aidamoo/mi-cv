@@ -1,29 +1,31 @@
 import streamlit as st
 from PIL import Image
 import textwrap
+import matplotlib.pyplot as plt
 
 
 def sobre_mi():
-    st.title("¿Quien soy?")
-
     image2 = Image.open(
-     "imagenes/linkedin_aida.png")
+        "imagenes/linkedin_aida.png")
     st.image(image=image2, width=900)
 
+    st.title("¿Quien soy?")
+
     st.subheader("¡Me presento!")
-    texto1 = "Mi nombre es Aida y actualmente me encuentro en búsuqeda activa de empleo. ¡Quédate para conocerme!"
+    texto1 = "Mi nombre es Aida y actualmente me encuentro en búsqueda activa de empleo. ¡Quédate para conocerme!"
     texto_justificado = textwrap.fill(texto1, width=70)
     st.write(texto_justificado)
 
     image3 = Image.open(
         "imagenes/foto_linkedin3.2.jpg")
-    st.image(image=image3, width=200)
+    st.image(image=image3, width=300)
+
 
     st.subheader("Ámbito académico")
     st.write("**\U0001F4D6¿Estás buscando un Graduado/a en ADE?\U0001F4D6**")
-    respuesta = st.radio("Selecciona una opción:", ("Sí, por supuesto, me vendría genial!\U0001F600", "No \U0001F622..."))
-    if respuesta == "Sí, por supuesto, me vendría genial!\U0001F600":
-        st.write("Excelente, podría ser tu candidata!")
+    respuesta = st.radio("Selecciona una opción:", ("Sí, por supuesto, ¡Me vendría genial!\U0001F600", "No \U0001F622..."))
+    if respuesta == "Sí, por supuesto, ¡Me vendría genial!\U0001F600":
+        st.write("Excelente, ¡Podría ser tu candidata!")
     else:
         st.write("Vaya, sigue leyendo, seguro que podremos dar match de todas formas 😉")
 
@@ -37,7 +39,7 @@ def sobre_mi():
     if respuesta == "Sí, por supuesto, ¡Es justo lo que buscaba!":
         st.write("Genial, ¡Sigamos hablando!")
     else:
-        st.write("Todavía podemos hacer match 😉")
+        st.write("Upss... Todavía podemos hacer match 😉")
 
 
     texto3 = "En cuanto a mi trayectoria profesional se ha centrado en el área de RRHH, donde he adquirido una amplia experiencia y conocimientos en dos grandes multinacionales como Securitas Direct y MANPOWER, especialmente en selección de personal."

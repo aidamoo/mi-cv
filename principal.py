@@ -5,6 +5,7 @@ import os
 from formacion import formacion
 from experiencia import experiencia
 from cv import cv
+from fin import fin
 
 estilo_css = """
         <style>
@@ -16,17 +17,17 @@ estilo_css = """
             /* Cambiar el fondo lateral */
             .sidebar {
                 background-color: #333; /* Cambia el color de fondo lateral */
-                color: black; /* Cambia el color del texto a negro */
+                color: black; /* Cambia el color del texto a black */
             }
         </style>
     """
 
-    # Mostrar el estilo CSS
-    st.markdown(estilo_css, unsafe_allow_html=True)
+# Mostrar el estilo CSS
+st.markdown(estilo_css, unsafe_allow_html=True)
 
 
 def main():
-    page = st.sidebar.radio("Menú", ("Introducción", "¿Quien soy?", "Formación", "Experiencia", "CV", "Contacto"))
+    page = st.sidebar.radio("Menú", ("Introducción", "¿Quien soy?", "Formación", "Experiencia", "CV", "Contacto", "Fin"))
 
     if page == "Introducción":
         st.title("Hola a todos/as")
@@ -55,6 +56,10 @@ def main():
 
     elif page == "Contacto":
         contacto()
+        pass
+
+    elif page == "Fin":
+        fin()
         pass
 
 
