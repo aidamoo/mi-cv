@@ -39,9 +39,6 @@ def contacto():
     with col2:
         st.write("https://github.com/aidamoo")
 
-    image6 = Image.open(
-        "imagenes/finn.PNG")
-    st.image(image=image6, width=450)
 
 
 

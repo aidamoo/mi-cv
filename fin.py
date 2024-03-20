@@ -4,7 +4,7 @@ from PIL import Image
 def fin():
     st.title("Gracias!")
     image6 = Image.open(
-        "imagenes/finn.PNG")
+        "imagenes/finnn.PNG")
     st.image(image=image6, width=450)
 
 if __name__ == "__main__":
