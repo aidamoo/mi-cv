@@ -42,7 +42,7 @@ def main():
     # Obtener la ruta del directorio del script actual
     script_dir = os.path.dirname(os.path.abspath(__file__))
     # Construir la ruta completa a la imagen de fondo
-    imagen_ruta = os.path.join(script_dir, "imagenes", "fondo.png")
+    imagen_ruta = os.path.join(script_dir, "imagenes/fondo.png")
 
     # Estilo CSS para establecer el fondo y cambiar el color de la barra lateral
     estilo_css = f"""
