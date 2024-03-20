@@ -39,22 +39,26 @@ def main():
         contacto()
         pass
 
-    # Estilo CSS para cambiar el color de fondo de la barra lateral
+    # Estilo CSS para cambiar el fondo de la página
     estilo_css = """
         <style>
-            /* Cambiar el color de fondo de la barra lateral */
-            .sidebar {
-                background-color: #333; /* Cambia el color de fondo a un gris oscuro */
+            /* Cambiar el fondo principal */
+            body {
+                background-color: #f0f0f0; /* Cambia el color de fondo principal */
             }
-            /* Cambiar el color del texto en la barra lateral */
-            .sidebar .sidebar-content {
-                color: white; /* Cambia el color del texto a blanco */
+
+            /* Cambiar el fondo lateral */
+            .sidebar {
+                background-color: #333; /* Cambia el color de fondo lateral */
             }
         </style>
     """
 
     # Mostrar el estilo CSS
     st.markdown(estilo_css, unsafe_allow_html=True)
+
+    # Contenido de la aplicación
+    st.write("Este es el contenido de mi aplicación de Streamlit.")
 
 
 if __name__ == "__main__":
