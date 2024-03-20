@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 
 def fin():
-    st.title("Gracias!")
+    st.title("¡Gracias!")
 
     image6 = Image.open(
         "imagenes/finnn.jpg")
