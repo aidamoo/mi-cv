@@ -69,7 +69,7 @@ def mostrar_habilidades():
     image = Image.open("logos/linkedin.png")
 
     # Mostrar el logo y la frase lado a lado
-    col1, col2 = st.columns([1, 5])
+    col1, col2 = st.columns([1, 10])
     with col1:
         st.image(image, width=30)
     with col2:
@@ -79,7 +79,7 @@ def mostrar_habilidades():
     image2 = Image.open("logos/infojobs.png")
 
      # Mostrar el logo y la frase lado a lado
-    col1, col2 = st.columns([1, 5])
+    col1, col2 = st.columns([1, 10])
     with col1:
         st.image(image2, width=60)
     with col2:
@@ -89,7 +89,7 @@ def mostrar_habilidades():
     image3 = Image.open("logos/office.png")
 
     # Mostrar el logo y la frase lado a lado
-    col1, col2 = st.columns([1, 5])
+    col1, col2 = st.columns([1, 10])
     with col1:
         st.image(image3, width=60)
     with col2:
@@ -99,7 +99,7 @@ def mostrar_habilidades():
     image4 = Image.open("logos/workday.png")
 
     # Mostrar el logo y la frase lado a lado
-    col1, col2 = st.columns([1, 5])
+    col1, col2 = st.columns([1, 10])
     with col1:
          st.image(image4, width=60)
     with col2:
@@ -109,7 +109,7 @@ def mostrar_habilidades():
     image5 = Image.open("logos/jupyter.png")
 
     # Mostrar el logo y la frase lado a lado
-    col1, col2 = st.columns([1, 5])
+    col1, col2 = st.columns([1, 10])
     with col1:
         st.image(image5, width=60)
     with col2:
@@ -119,7 +119,7 @@ def mostrar_habilidades():
     image6 = Image.open("logos/python.png")
 
     # Mostrar el logo y la frase lado a lado
-    col1, col2 = st.columns([1, 5])
+    col1, col2 = st.columns([1, 10])
     with col1:
         st.image(image6, width=40)
     with col2:
@@ -129,17 +129,17 @@ def mostrar_habilidades():
     image7 = Image.open("logos/sql.png")
 
     # Mostrar el logo y la frase lado a lado
-    col1, col2 = st.columns([1, 5])
+    col1, col2 = st.columns([1, 10])
     with col1:
         st.image(image7, width=60)
     with col2:
-        st.write("**- Workday**")
+        st.write("**- MySQL**")
 
     # Cargar el logo de PySpark
     image8 = Image.open("logos/pyspark.png")
 
     # Mostrar el logo y la frase lado a lado
-    col1, col2 = st.columns([1, 5])
+    col1, col2 = st.columns([1, 10])
     with col1:
         st.image(image8, width=60)
     with col2:
@@ -149,7 +149,7 @@ def mostrar_habilidades():
     image9 = Image.open("logos/pycharm.png")
 
     # Mostrar el logo y la frase lado a lado
-    col1, col2 = st.columns([1, 5])
+    col1, col2 = st.columns([1, 10])
     with col1:
         st.image(image9, width=40)
     with col2:
@@ -159,7 +159,7 @@ def mostrar_habilidades():
     image10 = Image.open("logos/streamlit.png")
 
     # Mostrar el logo y la frase lado a lado
-    col1, col2 = st.columns([1, 5])
+    col1, col2 = st.columns([1, 10])
     with col1:
         st.image(image10, width=40)
     with col2:
@@ -169,7 +169,7 @@ def mostrar_habilidades():
     image11 = Image.open("logos/airtable.png")
 
     # Mostrar el logo y la frase lado a lado
-    col1, col2 = st.columns([1, 5])
+    col1, col2 = st.columns([1, 10])
     with col1:
         st.image(image11, width=40)
     with col2:
@@ -179,9 +179,9 @@ def mostrar_habilidades():
     image12 = Image.open("logos/github.png")
 
     # Mostrar el logo y la frase lado a lado
-    col1, col2 = st.columns([1, 5])
+    col1, col2 = st.columns([1, 10])
     with col1:
-        st.image(image12, width=20)
+        st.image(image12, width=40)
     with col2:
         st.write("**- GitHub**")
 
