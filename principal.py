@@ -32,7 +32,7 @@ def main():
     if page == "Introducción":
         st.title("Hola a todos/as")
         st.subheader("Bienvenidos/as a mi perfil")
-        video_file = open("video/Welcome.mp4", "rb")
+        video_file = open("video/Welcome (1).mp4", "rb")
         video_bytes = video_file.read()
         st.video(video_bytes)
 

@@ -13,7 +13,7 @@ def contacto():
 
     telefono_emoti = "📞"
     numero_telefono = "667 23 49 39"
-    st.write(f"{telefono_emoti} {numero_telefono}")
+    st.write(f"{telefono_emoti}{numero_telefono}")
 
     correo_emoti = "📩 "
     correo = "aidaamoedo@hotmail.com"
