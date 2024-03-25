@@ -7,6 +7,17 @@ from experiencia import experiencia
 from cv import cv
 from fin import fin
 
+st.markdown("""
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2Q77LCWEC6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2Q77LCWEC6');
+</script>
+""", unsafe_allow_html=True)
+
 estilo_css = """
         <style>
             /* Cambiar el fondo principal */
