@@ -25,6 +25,12 @@ def mostrar_formacion_reglada():
 
 def mostrar_certificados():
     st.subheader("**Certificados.**")
+
+    st.write(" **- Conviértete en Reclutador IT - Especialización en Reclutamiento y Contratación de perfiles Tecnológicos.** RecruHack")
+    image12 = Image.open(
+        "imagenes/recruhack.png")
+    st.image(image=image12, width=450)
+
     st.write(" **- Automatiza tus procesos de selección con Airtable**. Nocodehackers")
     image4 = Image.open(
         "imagenes/Diapositiva1.PNG")
